@@ -1,0 +1,196 @@
+{
+  "schema_version": 1,
+  "kind": "omagen.theme.recipe",
+  "theme_name": "real",
+  "source_theme": "gnostic-typ-sh",
+  "source_kind": "generated",
+  "managed_scopes": [
+    "shell-bar",
+    "window-motion",
+    "terminal"
+  ],
+  "palette": {
+    "Mode": "dark",
+    "Accent": "#a36c4b",
+    "Selection": "#413724",
+    "Muted": "#636459",
+    "Background": "#1a150b",
+    "DarkBackground": "#130f07",
+    "DarkerBackground": "#0c0a05",
+    "LighterBackground": "#282317",
+    "Foreground": "#dbd7cd",
+    "DarkForeground": "#7d7a72",
+    "LightForeground": "#eeebe3",
+    "BrightForeground": "#faf8f3",
+    "Red": "#9a664a",
+    "Yellow": "#897a57",
+    "Orange": "#9c6548",
+    "Green": "#7d8567",
+    "Cyan": "#7d8565",
+    "Blue": "#7d8569",
+    "Magenta": "#98674c",
+    "Brown": "#79715f",
+    "BrightRed": "#bb7f5d",
+    "BrightYellow": "#a6956c",
+    "BrightGreen": "#97a17e",
+    "BrightCyan": "#97a17c",
+    "BrightBlue": "#97a180",
+    "BrightMagenta": "#bd7e5a"
+  },
+  "shell": {
+    "preset": "default",
+    "surface": "layered",
+    "detail": "edge",
+    "tooltip": "accent",
+    "notifications": "accent"
+  },
+  "desktop": {
+    "border_style": "neon",
+    "border_size": 2,
+    "border_size_mode": "fixed",
+    "border_speed": 72,
+    "shape": "soft",
+    "spacing": "airy",
+    "depth": "shadow",
+    "window_opacity": 100,
+    "active_style": "frosted_balanced",
+    "inactive_style": "shadow_only"
+  },
+  "bar": {
+    "surface": "native",
+    "density": "compact",
+    "attention": "accent",
+    "form": "docked",
+    "visibility": "native",
+    "profile": {
+      "schema_version": 1,
+      "ownership": "overlay",
+      "implementation": "replacement",
+      "bar": {
+        "id": "pretty.omagen.bar"
+      },
+      "behavior": {
+        "form": "rail",
+        "visibility": "always",
+        "reveal": "edge",
+        "expansion": "none",
+        "workspace": "native"
+      }
+    },
+    "spec": {
+      "version": 2,
+      "preset": "pulse",
+      "engine": "omagen",
+      "topology": "rail",
+      "position": "top",
+      "surface": {
+        "treatment": "metal",
+        "role": "dark",
+        "opacity": 0.96,
+        "blur": 0,
+        "border_role": "accent",
+        "border_opacity": 0.65,
+        "border_width": 2,
+        "shadow": "raised"
+      },
+      "geometry": {
+        "density": "compact",
+        "thickness": 0,
+        "edge_offset": 0,
+        "outer_margin": 0,
+        "inner_padding": 0,
+        "section_gap": 4,
+        "widget_gap": 0,
+        "radius": 8,
+        "length_mode": "full",
+        "length_value": 0,
+        "alignment": "center"
+      },
+      "attention": {
+        "mode": "semantic"
+      },
+      "behavior": {
+        "visibility": "always",
+        "exclusive_zone": "reserve",
+        "hover_expand": false,
+        "hide_delay_ms": 5000,
+        "reveal_delay_ms": 50,
+        "edge_sensor": 3,
+        "keep_visible_while_popup_open": true
+      },
+      "regions": {
+        "left": {
+          "mode": "native"
+        },
+        "center": {
+          "mode": "native"
+        },
+        "right": {
+          "mode": "native"
+        }
+      },
+      "workspace": {
+        "mode": "glyphs",
+        "glyphs": [
+          "⊹",
+          "⊕",
+          "◉",
+          "⊗",
+          "✦"
+        ]
+      },
+      "clock": {
+        "style": "native"
+      },
+      "dock": {
+        "closed": "ellipsis",
+        "glyph": "✦"
+      },
+      "motion": {
+        "preset": "expressive",
+        "duration_ms": 160,
+        "easing": "out_cubic"
+      }
+    }
+  },
+  "animations": {
+    "version": 1,
+    "preset": "custom",
+    "window": "smooth",
+    "window_open": "popin",
+    "window_close": "fade",
+    "window_move": "smooth",
+    "window_amount": 92,
+    "window_opacity": 94,
+    "window_speed": 3,
+    "workspace": "slidefade",
+    "workspace_axis": "horizontal",
+    "workspace_travel": 12,
+    "special_workspace": "fade",
+    "focus": "quick",
+    "layers": "fade",
+    "curve": "precision",
+    "border": "spin",
+    "border_speed": 72,
+    "glitch": "none",
+    "reduced_motion": false
+  },
+  "look_feel": {
+    "schema_version": 1,
+    "preset": "acid-pulse",
+    "preset_revision": 2,
+    "customized": {
+      "animations": false,
+      "bar": false,
+      "shell": false,
+      "terminal": false,
+      "window": true
+    }
+  },
+  "terminal": {
+    "schema_version": 1,
+    "mode": "preserve",
+    "opacity": 1,
+    "cell_mode": "background"
+  }
+}

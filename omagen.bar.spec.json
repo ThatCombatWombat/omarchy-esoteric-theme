@@ -1,0 +1,87 @@
+{
+  "spec": {
+    "version": 2,
+    "preset": "pulse",
+    "engine": "omagen",
+    "topology": "rail",
+    "position": "top",
+    "surface": {
+      "treatment": "metal",
+      "role": "dark",
+      "opacity": 0.96,
+      "blur": 0,
+      "border_role": "accent",
+      "border_opacity": 0.65,
+      "border_width": 2,
+      "shadow": "raised"
+    },
+    "geometry": {
+      "density": "compact",
+      "thickness": 0,
+      "edge_offset": 0,
+      "outer_margin": 0,
+      "inner_padding": 0,
+      "section_gap": 4,
+      "widget_gap": 0,
+      "radius": 8,
+      "length_mode": "full",
+      "length_value": 0,
+      "alignment": "center"
+    },
+    "attention": {
+      "mode": "semantic"
+    },
+    "behavior": {
+      "visibility": "always",
+      "exclusive_zone": "reserve",
+      "hover_expand": false,
+      "hide_delay_ms": 5000,
+      "reveal_delay_ms": 50,
+      "edge_sensor": 3,
+      "keep_visible_while_popup_open": true
+    },
+    "regions": {
+      "left": {
+        "mode": "native"
+      },
+      "center": {
+        "mode": "native"
+      },
+      "right": {
+        "mode": "native"
+      }
+    },
+    "workspace": {
+      "mode": "glyphs",
+      "glyphs": [
+        "⊹",
+        "⊕",
+        "◉",
+        "⊗",
+        "✦"
+      ]
+    },
+    "clock": {
+      "style": "native"
+    },
+    "dock": {
+      "closed": "ellipsis",
+      "glyph": "✦"
+    },
+    "motion": {
+      "preset": "expressive",
+      "duration_ms": 160,
+      "easing": "out_cubic"
+    }
+  },
+  "engine": "omagen",
+  "native": false,
+  "capabilities": {
+    "surface": false,
+    "topology": false,
+    "behavior": true,
+    "regions": true,
+    "workspace": false,
+    "clock": true
+  }
+}
